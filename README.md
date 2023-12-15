@@ -1,2 +1,2 @@
 # Site da Escrituracao
- Para uso futuro.
+ Para uso pessoal e futuro

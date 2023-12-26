@@ -4,6 +4,10 @@ body {
     background-color: rgb(6, 31, 43);
 }
 
+div {
+    text-align: center;
+}
+
 h1 {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;

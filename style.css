@@ -2,14 +2,26 @@
 
 body {
     background-color: rgb(6, 31, 43);  
+    margin: 0;
+    padding: 0;
 }
 
 .img_logo_axe{
     
 }
 
-.img_logo_fabiano{
+.imagem-esquerda{
+    float: left;
+}
 
+.img_logo_fabiano{
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.imagem-direita {
+    float: right;     
+    margin-left: 10px; 
 }
 
 .text-cmc {

@@ -2,12 +2,13 @@
 
 body {
     background-color: rgb(6, 31, 43);  
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
 }
 
 .img_logo_axe{
-    
+    max-width: 100%; 
+    margin: 0 auto; 
 }
 
 .imagem-esquerda{
@@ -22,6 +23,22 @@ body {
 .imagem-direita {
     float: right;     
     margin-left: 10px; 
+}
+
+.imagem-direita, .imagem-esquerda {
+    height: 105px; 
+    vertical-align: top; 
+    margin-left: 10px; 
+    animation: flutuar 5s ease-in-out infinite; /* Definindo a animação */
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateX(0); /* Posição inicial (sem deslocamento horizontal) */
+    }
+    50% {
+        transform: translateX(-20px); /* Desloca 20 pixels para a esquerda no meio da animação */
+    }
 }
 
 .text-cmc {

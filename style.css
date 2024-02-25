@@ -6,6 +6,20 @@ body {
     padding: 1;
 }
 
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.imagem-ampliavel{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto;    /* Mantém a proporção original da imagem */
+    cursor: pointer; /* Altera o cursor ao passar sobre a imagem para indicar interatividade */
+    transition: transform 0.5s; /* Adiciona uma transição suave para o efeito de escala */
+}
+
 .img_logo_axe{
     max-width: 100%; 
     margin: 0 auto; 
@@ -42,22 +56,6 @@ body {
 }
 
 .text-cmc {
-    text-align: center;
-}
-
-.img_diario{
-    text-align: center;
-}
-
-.img_razao{
-    text-align: center;
-}
-
-.img_balancete{
-    text-align: center;
-}
-
-.img_balanco-patrimonial{
     text-align: center;
 }
 

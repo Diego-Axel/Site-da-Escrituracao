@@ -7,3 +7,5 @@ function ampliarImagem(imagem) {
         imagem.classList.add('ampliada');
     }
 }
+
+// 

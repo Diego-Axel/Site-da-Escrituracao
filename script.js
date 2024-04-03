@@ -8,4 +8,4 @@ function ampliarImagem(imagem) {
     }
 }
 
-// 
+// DESENVOLVIMENTO...

@@ -9,3 +9,4 @@ function ampliarImagem(imagem) {
 }
 
 // DESENVOLVIMENTO...
+// PROJETO NÃO FINALIZADO.
